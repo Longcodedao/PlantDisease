@@ -1,0 +1,6 @@
+# Ignore data files
+cifar/data/
+
+# Ignore additional files
+.git/
+.ipynb_checkpoints/
