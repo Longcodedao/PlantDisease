@@ -1,5 +1,6 @@
 # Ignore data files
 cifar/data/
+cifat/__pycache__/
 
 # Ignore additional files
 .git/
