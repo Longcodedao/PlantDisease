@@ -11,7 +11,7 @@ class Attention(nn.Module):
         attention_channel = max(int(in_planes * reduction), min_channel)
         self.kernel_size = kernel_size
         self.kernel_num = kernel_num
-        self.temperature = 30.0
+        self.temperature = 60.0
 
         self.avgpool = nn.AdaptiveAvgPool2d(1)
         self.fc = nn.Conv2d(in_planes, attention_channel, 1, bias=False)
@@ -113,6 +113,9 @@ class ODConv2d(nn.Module):
 
     def update_temperature(self, temperature):
         self.attention.update_temperature(temperature)
+
+    def get_temperature(self):
+        return self.attention.temperature
 
     def _forward_impl_common(self, x):
         # Multiplying channel attention (or filter attention) to weights and feature maps are equivalent,
