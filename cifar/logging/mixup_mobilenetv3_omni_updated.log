@@ -1568,3 +1568,4 @@
 2023-12-09 11:57:55,097 - INFO - Val Loss: 0.47  -  Val Acc: 88.83%
 2023-12-09 11:57:55,098 - INFO - ========================================
 2023-12-09 11:57:55,098 - INFO - Training Completed! 😀
+2023-12-10 02:53:35,443 - INFO - 🚀 Training MobileNetV3 - Omni Dimensional Dynamic Convolution 🚀
