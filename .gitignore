@@ -5,6 +5,9 @@ tiny_imagenet/images/
 tiny_imagenet/__pycache__/
 tiny_imagenet/setup_data/__pycache__/
 tiny_imagenet/tiny-imagenet-200
+Bayesian_Optimization/data/
+Bayesian_Optimization/logging/
+Bayesian_Optimization/__pycache__/
 
 # Ignore additional files
 .git/
